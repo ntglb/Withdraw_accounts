@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Number Lookup - 𓆩𓅓𝑺𝑨𝑸𝑬𝑹𓅓𓆪</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #00d4ff;
+      text-shadow: 0 0 15px rgba(0, 212, 255, 0.7);
+      margin-bottom: 0.5em;
+    }
+    .symbol {
+      font-size: 2rem;
+      color: #ff003c;
+      margin-top: 0.2em;
+      animation: pulse 2s ease-in-out infinite alternate;
+    }
+    @keyframes pulse {
+      from { text-shadow: 0 0 10px #ff003c; }
+      to { text-shadow: 0 0 30px #ff003c; }
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      padding: 2em;
+      max-width: 600px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+    .content {
+      margin-top: 1.5em;
+      text-align: center;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.75em 1.5em;
+      background: #ff003c;
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    a.button:hover { background: #ff3366; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="symbol">𓆩𓅓𝑺𝑨𝑸𝑬𝑹𓅓𓆪</div>
+    <h1>Number Lookup</h1>
+    <div class="content">
+      <p>أدخل الرقم لمعرفة التفاصيل أو نتائج البحث.</p>
+      <a class="button" href="index.html">العودة</a>
+    </div>
+  </div>
+</body>
+</html>
